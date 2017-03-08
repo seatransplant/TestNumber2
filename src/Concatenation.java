@@ -18,4 +18,26 @@ class Concatenation {
         return builder.toString();
     }
 
+
+    static int sumNumbers(int... values) {
+        int value = 0;
+
+        for  (int foundValue : values) {
+            value += foundValue ;
+        }
+
+        return value;
+    }
+
+    static int subtrackFromNumber(int originalNumber, int... values) {
+
+        int value = originalNumber;
+
+        for (int foundValue : values) {
+            value -= foundValue;
+        }
+
+        return value;
+    }
+
 }
