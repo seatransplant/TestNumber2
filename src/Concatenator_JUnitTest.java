@@ -19,4 +19,12 @@ class Concatenation_JUnitTest {
         assertEquals(expectedValue, concatenated);
     }
 
+    @org.junit.jupiter.api.Test
+    void sumNumber() {
+        int expectedValue = 150;
+        int returnValue = Concatenation.sumNumbers(50,75,10,15);
+        assertEquals(expectedValue, returnValue);
+    }
+
+
 }

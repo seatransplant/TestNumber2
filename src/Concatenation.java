@@ -18,4 +18,15 @@ class Concatenation {
         return builder.toString();
     }
 
+
+    static int sumNumbers(int... values) {
+        int value = 0;
+
+        for  (int foundValue : values) {
+            value += foundValue ;
+        }
+
+        return value;
+    }
+
 }
