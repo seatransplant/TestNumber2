@@ -1,0 +1,22 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+/**
+ * Created by Stephen Costanzo on 3/7/2017.
+ * Lets see if JUnit Works
+ */
+class Concatenation_JUnitTest {
+    @org.junit.jupiter.api.Test
+    void concatenate() {
+        String concatenated = Concatenation.concatenate("one", "two", "three", "four");
+
+        assertEquals("one,two,three,four", concatenated);
+    }
+
+    @org.junit.jupiter.api.Test
+    void concatenateNoStrings() {
+        String expectedValue = "";
+        String concatenated = Concatenation.concatenate(expectedValue);
+        assertEquals(expectedValue, concatenated);
+    }
+
+}
