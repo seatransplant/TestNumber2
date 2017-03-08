@@ -58,4 +58,14 @@ class Concatenation_JUnitTest {
         int returnValue = Concatenation.negateValue(originalValue);
         assertEquals(expectedValue, returnValue);
     }
+
+    @org.junit.jupiter.api.Test
+    void negateNumberFromNegative(){
+        int originalValue = -248;
+        int expectedValue = 248;
+        int returnValue = Concatenation.negateValue(originalValue);
+        assertEquals(expectedValue, returnValue);
+    }
+
+
 }
