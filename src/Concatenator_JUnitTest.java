@@ -20,17 +20,25 @@ class Concatenation_JUnitTest {
     }
 
     @org.junit.jupiter.api.Test
-    void sumNumber() {
+    void sumNumbers() {
         int expectedValue = 150;
         int returnValue = Concatenation.sumNumbers(50,75,10,15);
         assertEquals(expectedValue, returnValue);
     }
 
     @org.junit.jupiter.api.Test
-    void subractNumber() {
+    void subractNumbers() {
         int originalValue = 500;
         int expectedValue = 200;
-        int returnValue = Concatenation.subtrackFromNumber(originalValue, 100,25,75,50,20,30);
+        int returnValue = Concatenation.subtractFromNumber(originalValue, 100,25,75,50,20,30);
+        assertEquals(expectedValue,returnValue);
+    }
+
+    @org.junit.jupiter.api.Test
+    void multiplyNumbers() {
+
+        long expectedValue = 5625000000L;
+        long returnValue = Concatenation.multiplyNumbers( 100,25,75,50,20,30);
         assertEquals(expectedValue,returnValue);
     }
 

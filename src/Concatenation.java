@@ -29,12 +29,22 @@ class Concatenation {
         return value;
     }
 
-    static int subtrackFromNumber(int originalNumber, int... values) {
+    static int subtractFromNumber(int originalNumber, int... values) {
 
         int value = originalNumber;
 
         for (int foundValue : values) {
             value -= foundValue;
+        }
+
+        return value;
+    }
+    static long multiplyNumbers( long... values) {
+
+        long value = 1;
+
+        for (long foundValue : values) {
+            value *= foundValue;
         }
 
         return value;
