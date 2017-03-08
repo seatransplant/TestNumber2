@@ -26,5 +26,12 @@ class Concatenation_JUnitTest {
         assertEquals(expectedValue, returnValue);
     }
 
+    @org.junit.jupiter.api.Test
+    void subractNumber() {
+        int originalValue = 500;
+        int expectedValue = 200;
+        int returnValue = Concatenation.subtrackFromNumber(originalValue, 100,25,75,50,20,30);
+        assertEquals(expectedValue,returnValue);
+    }
 
 }
