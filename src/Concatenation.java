@@ -59,4 +59,7 @@ class Concatenation {
         return value;
     }
 
+    static int negateValue (int value) {
+        return -value;
+    }
 }
