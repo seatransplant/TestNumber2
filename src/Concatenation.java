@@ -50,4 +50,16 @@ class Concatenation {
         return value;
     }
 
+    static double divideNumbers(long originalValue, long ... values){
+        double value = originalValue ;
+        for (long foundValue : values) {
+            value = value / foundValue;
+        }
+
+        return value;
+    }
+
+    static int negateValue (int value) {
+        return -value;
+    }
 }

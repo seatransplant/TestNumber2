@@ -42,4 +42,20 @@ class Concatenation_JUnitTest {
         assertEquals(expectedValue,returnValue);
     }
 
+    @org.junit.jupiter.api.Test
+    void divideNumbers() {
+
+        long originalValue = 32400;
+        double expectedValue = 5.4;
+        double returnValue = Concatenation.divideNumbers( originalValue,25,8, 30);
+        assertEquals(expectedValue,returnValue);
+    }
+
+    @org.junit.jupiter.api.Test
+    void negateNumber(){
+        int originalValue = 248;
+        int expectedValue = -248;
+        int returnValue = Concatenation.negateValue(originalValue);
+        assertEquals(expectedValue, returnValue);
+    }
 }
