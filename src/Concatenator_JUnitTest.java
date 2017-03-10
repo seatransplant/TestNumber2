@@ -1,4 +1,4 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Created by Stephen Costanzo on 3/7/2017.
@@ -52,7 +52,7 @@ class Concatenation_JUnitTest {
     }
 
     @org.junit.jupiter.api.Test
-    void negateNumber(){
+    void negateNumber() {
         int originalValue = 248;
         int expectedValue = -248;
         int returnValue = Concatenation.negateValue(originalValue);
@@ -60,7 +60,7 @@ class Concatenation_JUnitTest {
     }
 
     @org.junit.jupiter.api.Test
-    void doubleNumber(){
+    void doubleNumber() {
         int originalValue = 30;
         int expectedValue = 60;
         int returnValue = Concatenation.doubleValue(originalValue);
