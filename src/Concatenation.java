@@ -63,6 +63,10 @@ class Concatenation {
         return -value;
     }
 
+    static int doubleValue (int value) {
+        return value * 2;
+    }
+
     static boolean isVowel(char value){
         switch (Character.toLowerCase(value )) {
             case 'a':
