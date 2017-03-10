@@ -41,7 +41,7 @@ class Concatenation {
     }
     static long multiplyNumbers( long... values) {
 
-        long value = -1;
+        long value = 1;
 
         for (long foundValue : values) {
             value *= foundValue;
@@ -65,5 +65,18 @@ class Concatenation {
 
     static int doubleValue (int value) {
         return value * 2;
+    }
+
+    static boolean isVowel(char value){
+        switch (Character.toLowerCase(value )) {
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+                return true;
+            default:
+                return false;
+        }
     }
 }
