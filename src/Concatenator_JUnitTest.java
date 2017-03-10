@@ -37,7 +37,7 @@ class Concatenation_JUnitTest {
     @org.junit.jupiter.api.Test
     void multiplyNumbers() {
 
-        long expectedValue = 5625000000L;
+        long expectedValue = -5625000000L;
         long returnValue = Concatenation.multiplyNumbers( 100,25,75,50,20,30);
         assertEquals(expectedValue,returnValue);
     }

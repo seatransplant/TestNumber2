@@ -41,7 +41,7 @@ class Concatenation {
     }
     static long multiplyNumbers( long... values) {
 
-        long value = 1;
+        long value = -1;
 
         for (long foundValue : values) {
             value *= foundValue;
