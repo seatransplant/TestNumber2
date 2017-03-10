@@ -58,4 +58,12 @@ class Concatenation_JUnitTest {
         int returnValue = Concatenation.negateValue(originalValue);
         assertEquals(expectedValue, returnValue);
     }
+
+    @org.junit.jupiter.api.Test
+    void doubleNumber(){
+        int originalValue = 30;
+        int expectedValue = 60;
+        int returnValue = Concatenation.negateValue(originalValue);
+        assertEquals(expectedValue, returnValue);
+    }
 }

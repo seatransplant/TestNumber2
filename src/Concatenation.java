@@ -62,4 +62,8 @@ class Concatenation {
     static int negateValue (int value) {
         return -value;
     }
+
+    static int doubleValue (int value) {
+        return value * 2;
+    }
 }
