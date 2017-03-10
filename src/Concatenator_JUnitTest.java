@@ -63,7 +63,7 @@ class Concatenation_JUnitTest {
     void doubleNumber(){
         int originalValue = 30;
         int expectedValue = 60;
-        int returnValue = Concatenation.negateValue(originalValue);
+        int returnValue = Concatenation.doubleValue(originalValue);
         assertEquals(expectedValue, returnValue);
     }
 }
