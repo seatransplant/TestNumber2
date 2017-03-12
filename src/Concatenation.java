@@ -84,7 +84,13 @@ class Concatenation {
         return doubleValue(negateValue(value));
     }
 
-    static double areaRectangle(double length, double width){
+    static double areaRectangle(double length, double width) throws IllegalArgumentException {
+        if (length <=0)
+            throw new IllegalArgumentException("Length has to be greater than zero.");
+
+        if (width<=0)
+            throw new IllegalArgumentException("Width has to be greater than zero.");
+
         return length*width;
     }
 }
