@@ -79,4 +79,8 @@ class Concatenation {
                 return false;
         }
     }
+
+    static int doubleNegateValue(int value){
+        return doubleValue(negateValue(value));
+    }
 }

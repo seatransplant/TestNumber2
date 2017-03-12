@@ -111,5 +111,11 @@ class Concatenation_JUnitTest {
         assertTrue(returnValue);
     }
 
+    @org.junit.jupiter.api.Test
+    void testDN(){
+        int initialValue = 3913;
+        int expectedValue = -7826;
+        assertEquals(expectedValue, Concatenation.doubleNegateValue(initialValue));
+    }
 
 }
