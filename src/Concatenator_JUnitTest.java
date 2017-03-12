@@ -118,4 +118,12 @@ class Concatenation_JUnitTest {
         assertEquals(expectedValue, Concatenation.doubleNegateValue(initialValue));
     }
 
+    @org.junit.jupiter.api.Test
+    void testArea(){
+        int initialLength = 105;
+        int initialWidth = 148;
+        int expectedValue = 15540;
+        assertEquals(expectedValue, Concatenation.areaRectangle(initialLength, initialWidth));
+    }
+
 }

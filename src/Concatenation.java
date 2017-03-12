@@ -83,4 +83,8 @@ class Concatenation {
     static int doubleNegateValue(int value){
         return doubleValue(negateValue(value));
     }
+
+    static double areaRectangle(double length, double width){
+        return length*width;
+    }
 }
