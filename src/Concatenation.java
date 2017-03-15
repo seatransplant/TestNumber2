@@ -93,4 +93,13 @@ class Concatenation {
 
         return length*width;
     }
+
+    static double getHypotenuse (int baseValue, int heightValue) {
+	double hypotenuse =0 ;
+
+        if (baseValue != 0 && heightValue != 0 )
+            hypotenuse = Math.sqrt(Math.pow(baseValue,2) + Math.pow(heightValue,2));
+
+        return hypotenuse;
+     }
 }
