@@ -147,4 +147,42 @@ class Concatenation_JUnitTest {
             assertTrue(true);
         }
     }
+
+    @Test
+    public void testHypot(){
+        int baseValue = 15;
+        int heightValue = 20;
+        double expectedValue = 25;
+        double returnedValue ;
+
+        returnedValue = Concatenation.getHypotenuse(baseValue, heightValue);
+        assertEquals(expectedValue, returnedValue);
+
+    }
+
+    @Test
+    public void testPalFail()
+    {
+        String testValue = "asdd";
+        assertFalse(Concatenation.isPalendrome(testValue));
+    }
+
+    @Test
+    public void testPalPassEven(){
+        String testValue = "adda";
+        assertTrue(Concatenation.isPalendrome(testValue));
+    }
+
+    @Test
+    public void testPalPassOddNumbers(){
+        String testValue = "2aduda2";
+        assertTrue(Concatenation.isPalendrome(testValue));
+    }
+
+    @Test
+    public void testPalPassOdd(){
+        String testValue = "aduda";
+        assertTrue(Concatenation.isPalendrome(testValue));
+    }
+
 }

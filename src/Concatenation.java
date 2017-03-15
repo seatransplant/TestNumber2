@@ -18,7 +18,6 @@ class Concatenation {
         return builder.toString();
     }
 
-
     static int sumNumbers(int... values) {
         int value = 0;
 
@@ -39,6 +38,7 @@ class Concatenation {
 
         return value;
     }
+
     static long multiplyNumbers( long... values) {
 
         long value = 1;
@@ -102,4 +102,30 @@ class Concatenation {
 
         return hypotenuse;
      }
+
+    static boolean isPalendrome(String value){
+        // asdsa = true
+
+        char checkValue[] = value.toUpperCase().toCharArray();
+        int stringLength = checkValue.length ;
+        int stringHalfPoint = stringLength /2;
+
+        // Now that we have the length and the midpoint, decrease both by 1 to account
+        // for the 0 base for the string
+
+        stringHalfPoint --;
+        stringLength --;
+
+        // Assume the word is one
+        boolean isPalendromeCheck = true;
+
+        for (int i=0; i < stringHalfPoint; i++) {
+            if (checkValue[i] != checkValue[stringLength-i]) {
+                isPalendromeCheck = false;
+                break;
+            }
+        }
+
+        return isPalendromeCheck;
+    }
 }
