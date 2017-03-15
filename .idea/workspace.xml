@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="411b614f-f695-441a-a67b-1e490ecfb727" name="Default" comment="" />
+<<<<<<< Updated upstream
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+>>>>>>> Stashed changes
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,7 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+<<<<<<< Updated upstream
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Concatenator_JUnitTest.java" pinned="false" current-in-tab="true">
@@ -22,6 +26,37 @@
             <state relative-caret-position="653">
               <caret line="125" column="92" lean-forward="false" selection-start-line="125" selection-start-column="92" selection-end-line="125" selection-end-column="92" />
               <folding />
+=======
+  <component name="FavoritesManager">
+    <favorites_list name="TestNumber2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Concatenator_JUnitTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Concatenator_JUnitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="155" column="30" lean-forward="true" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#concatenate#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#concatenateNoStrings#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#sumNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#subractNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#multiplyNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#divideNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#negateNumber#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#doubleNumber#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#negateNumberFromNegative#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#testVowelsa#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#testVowelB#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#testVowelA#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#testDN#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#testArea#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#testAreaZeroLength#0;class#Concatenation_JUnitTest#0" expanded="false" />
+                <element signature="method#testAreaZeroWidth#0;class#Concatenation_JUnitTest#0" expanded="false" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -29,6 +64,7 @@
       <file leaf-file-name="Concatenation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Concatenation.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="713">
               <caret line="86" column="55" lean-forward="true" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
               <folding>
@@ -36,6 +72,19 @@
                 <element signature="e#1794#1795#0" expanded="true" />
                 <element signature="e#1857#1858#0" expanded="true" />
                 <element signature="e#1892#1893#0" expanded="true" />
+=======
+            <state relative-caret-position="245">
+              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+              <folding>
+                <element signature="method#concatenate#0;class#Concatenation#0" expanded="false" />
+                <element signature="method#sumNumbers#0;class#Concatenation#0" expanded="false" />
+                <element signature="method#subtractFromNumber#0;class#Concatenation#0" expanded="false" />
+                <element signature="method#multiplyNumbers#0;class#Concatenation#0" expanded="false" />
+                <element signature="method#divideNumbers#0;class#Concatenation#0" expanded="false" />
+                <element signature="method#isVowel#0;class#Concatenation#0" expanded="false" />
+                <element signature="method#areaRectangle#0;class#Concatenation#0" expanded="false" />
+                <element signature="method#getHypotenuse#0;class#Concatenation#0" expanded="false" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
@@ -44,6 +93,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+<<<<<<< Updated upstream
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -56,6 +106,9 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> Stashed changes
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -77,10 +130,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="x" value="392" />
     <option name="y" value="341" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -97,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< Updated upstream
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,6 +215,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
+=======
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+>>>>>>> Stashed changes
   <component name="RunManager" selected="JUnit.Concatenation_JUnitTest">
     <configuration default="false" name="Concatenation_JUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -176,6 +245,30 @@
       <patterns />
       <method />
     </configuration>
+<<<<<<< Updated upstream
+=======
+    <configuration default="false" name="Concatenation_JUnitTest.testPalFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="TestNumber2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Concatenation_JUnitTest" />
+      <option name="METHOD_NAME" value="testPalFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+>>>>>>> Stashed changes
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -549,12 +642,23 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+<<<<<<< Updated upstream
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Concatenation_JUnitTest" />
     </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="JUnit.Concatenation_JUnitTest" />
+=======
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Concatenation_JUnitTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Concatenation_JUnitTest.testPalFail" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Concatenation_JUnitTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Concatenation_JUnitTest.testPalFail" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -562,6 +666,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
+<<<<<<< Updated upstream
     <task active="true" id="Default" summary="Default task">
       <changelist id="411b614f-f695-441a-a67b-1e490ecfb727" name="Default" comment="" />
       <created>1489347016363</created>
@@ -649,6 +754,126 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+=======
+    <task id="LOCAL-00001" summary="Palendrome and Hypo test">
+      <created>1489560199115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1489560199115</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Concatenation_JUnitTest - 2017.03.14 at 23h 00m 40s.xml">
+      <configuration name="Concatenation_JUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Concatenation_JUnitTest - 2017.03.14 at 23h 35m 26s.xml">
+      <configuration name="Concatenation_JUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Concatenation_JUnitTest - 2017.03.14 at 23h 39m 20s.xml">
+      <configuration name="Concatenation_JUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Concatenation_JUnitTest - 2017.03.14 at 23h 41m 09s.xml">
+      <configuration name="Concatenation_JUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Concatenation_JUnitTest - 2017.03.14 at 23h 41m 47s.xml">
+      <configuration name="Concatenation_JUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Concatenation_JUnitTest - 2017.03.14 at 23h 43m 10s.xml">
+      <configuration name="Concatenation_JUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Concatenation_JUnitTest_testPalFail - 2017.03.14 at 23h 36m 56s.xml">
+      <configuration name="Concatenation_JUnitTest.testPalFail" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2897000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31852654" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.50208336" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16901408" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.102345414" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.50208336" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31852654" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16901408" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.102345414" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Palendrome and Hypo test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Palendrome and Hypo test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Concatenation.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+>>>>>>> Stashed changes
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -656,6 +881,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/Concatenation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
@@ -665,19 +891,102 @@
             <element signature="e#1794#1795#0" expanded="true" />
             <element signature="e#1857#1858#0" expanded="true" />
             <element signature="e#1892#1893#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Concatenator_JUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#concatenate#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#concatenateNoStrings#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#sumNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#subractNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#multiplyNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#divideNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#negateNumber#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#doubleNumber#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#negateNumberFromNegative#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testVowelsa#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testVowelB#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testVowelA#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testDN#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testArea#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testAreaZeroLength#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testAreaZeroWidth#0;class#Concatenation_JUnitTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Concatenation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1640">
+          <caret line="88" column="46" lean-forward="false" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="46" />
+          <folding>
+            <element signature="method#concatenate#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#sumNumbers#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#subtractFromNumber#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#multiplyNumbers#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#divideNumbers#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#isVowel#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#areaRectangle#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#getHypotenuse#0;class#Concatenation#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Concatenation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding>
+            <element signature="method#concatenate#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#sumNumbers#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#subtractFromNumber#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#multiplyNumbers#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#divideNumbers#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#isVowel#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#areaRectangle#0;class#Concatenation#0" expanded="false" />
+            <element signature="method#getHypotenuse#0;class#Concatenation#0" expanded="false" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Concatenator_JUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="653">
           <caret line="125" column="92" lean-forward="false" selection-start-line="125" selection-start-column="92" selection-end-line="125" selection-end-column="92" />
           <folding />
+=======
+        <state relative-caret-position="165">
+          <caret line="155" column="30" lean-forward="true" selection-start-line="155" selection-start-column="30" selection-end-line="155" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#concatenate#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#concatenateNoStrings#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#sumNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#subractNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#multiplyNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#divideNumbers#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#negateNumber#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#doubleNumber#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#negateNumberFromNegative#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testVowelsa#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testVowelB#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testVowelA#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testDN#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testArea#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testAreaZeroLength#0;class#Concatenation_JUnitTest#0" expanded="false" />
+            <element signature="method#testAreaZeroWidth#0;class#Concatenation_JUnitTest#0" expanded="false" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
   </component>
+<<<<<<< Updated upstream
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
@@ -694,4 +1003,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> Stashed changes
 </project>

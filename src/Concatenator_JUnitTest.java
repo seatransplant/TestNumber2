@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -5,28 +6,28 @@ import static org.junit.jupiter.api.Assertions.*;
  * Lets see if JUnit Works
  */
 class Concatenation_JUnitTest {
-    @org.junit.jupiter.api.Test
+    @Test
     void concatenate() {
         String concatenated = Concatenation.concatenate("one", "two", "three", "four");
 
         assertEquals("one,two,three,four", concatenated);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void concatenateNoStrings() {
         String expectedValue = "";
         String concatenated = Concatenation.concatenate(expectedValue);
         assertEquals(expectedValue, concatenated);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void sumNumbers() {
         int expectedValue = 150;
         int returnValue = Concatenation.sumNumbers(50, 75, 10, 15);
         assertEquals(expectedValue, returnValue);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void subractNumbers() {
         int originalValue = 500;
         int expectedValue = 200;
@@ -34,7 +35,7 @@ class Concatenation_JUnitTest {
         assertEquals(expectedValue, returnValue);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void multiplyNumbers() {
 
         long expectedValue = 5625000000L;
@@ -42,7 +43,7 @@ class Concatenation_JUnitTest {
         assertEquals(expectedValue, returnValue);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void divideNumbers() {
 
         long originalValue = 32400;
@@ -51,7 +52,7 @@ class Concatenation_JUnitTest {
         assertEquals(expectedValue, returnValue);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void negateNumber() {
         int originalValue = 248;
         int expectedValue = -248;
@@ -59,7 +60,7 @@ class Concatenation_JUnitTest {
         assertEquals(expectedValue, returnValue);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void doubleNumber() {
         int originalValue = 30;
         int expectedValue = 60;
@@ -67,7 +68,7 @@ class Concatenation_JUnitTest {
         assertEquals(expectedValue, returnValue);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void negateNumberFromNegative() {
         int originalValue = -248;
         int expectedValue = 248;
@@ -75,8 +76,7 @@ class Concatenation_JUnitTest {
         assertEquals(expectedValue, returnValue);
     }
 
-
-    @org.junit.jupiter.api.Test
+    @Test
     void testVowelsa() {
         boolean returnValue = Concatenation.isVowel('a');
         assertTrue(returnValue);
@@ -90,14 +90,14 @@ class Concatenation_JUnitTest {
         assertTrue(returnValue);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void testVowelB() {
         boolean returnValue = Concatenation.isVowel('b');
         assertFalse(returnValue);
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void testVowelA() {
         boolean returnValue = Concatenation.isVowel('A');
         assertTrue(returnValue);
@@ -111,11 +111,78 @@ class Concatenation_JUnitTest {
         assertTrue(returnValue);
     }
 
-    @org.junit.jupiter.api.Test
-    void testDN(){
+    @Test
+    void testDN() {
         int initialValue = 3913;
         int expectedValue = -7826;
         assertEquals(expectedValue, Concatenation.doubleNegateValue(initialValue));
+    }
+
+    @Test
+    void testArea() {
+        int initialLength = 105;
+        int initialWidth = 148;
+        int expectedValue = 15540;
+        assertEquals(expectedValue, Concatenation.areaRectangle(initialLength, initialWidth));
+    }
+
+    @Test
+    public void testAreaZeroLength() {
+        int initialLength = 0;
+        int initialWidth = 100;
+        try {
+            assertEquals(0, Concatenation.areaRectangle(initialLength, initialWidth));
+        } catch (IllegalArgumentException e) {
+            assertTrue(true);
+        }
+    }
+
+    @Test
+    public void testAreaZeroWidth() {
+        int initialLength = 10;
+        int initialWidth = 0;
+        try {
+            assertEquals(0, Concatenation.areaRectangle(initialLength, initialWidth));
+        } catch (IllegalArgumentException e) {
+            assertTrue(true);
+        }
+    }
+
+    @Test
+    public void testHypot(){
+        int baseValue = 15;
+        int heightValue = 20;
+        double expectedValue = 25;
+        double returnedValue ;
+
+        returnedValue = Concatenation.getHypotenuse(baseValue, heightValue);
+        assertEquals(expectedValue, returnedValue);
+
+    }
+
+    @Test
+    public void testPalFail()
+    {
+        String testValue = "asdd";
+        assertFalse(Concatenation.isPalendrome(testValue));
+    }
+
+    @Test
+    public void testPalPassEven(){
+        String testValue = "adda";
+        assertTrue(Concatenation.isPalendrome(testValue));
+    }
+
+    @Test
+    public void testPalPassOddNumbers(){
+        String testValue = "2aduda2";
+        assertTrue(Concatenation.isPalendrome(testValue));
+    }
+
+    @Test
+    public void testPalPassOdd(){
+        String testValue = "aduda";
+        assertTrue(Concatenation.isPalendrome(testValue));
     }
 
 }
